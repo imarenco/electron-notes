@@ -15,7 +15,7 @@ Application should let me take notes and save them on my computer.
     yarn install
     yarn start
 ```
-Starts on `http://localhost:8080`
+
 # Test
 ```
     npm run test
