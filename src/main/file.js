@@ -7,7 +7,7 @@ ipcMain.on('ping', (event, arg) => {
 })
 
 
-ipcMain.on('save', (event, payload) => {
+ipcMain.on('saveFile', (event, payload) => {
   var options = {
     title: "Save Note",
     defaultPath: "my_note",
@@ -21,7 +21,6 @@ ipcMain.on('save', (event, payload) => {
 
 
   dialog.showSaveDialog(null, options).then(({ filePath }) => {
-    console.log('aca perro', filePath, payload);
     fs.writeFileSync(filePath, payload.text, 'utf-8');
   });
 })

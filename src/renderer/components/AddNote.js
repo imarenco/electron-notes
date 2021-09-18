@@ -74,7 +74,7 @@ const AddNote = () => {
 
 	const handleSaveFileClick = useCallback(() => {
 		if (noteText.trim().length > 0) {
-			window.appContext.save(noteText);
+			window.appContext.saveFile(noteText);
 			setNoteText('');
 		}
 	}, [noteText]);
