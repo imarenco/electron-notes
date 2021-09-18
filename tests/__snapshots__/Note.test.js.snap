@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Compare Note snapshot and check properties 1`] = `
+Array [
+  <style
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": ".css-hq46nn{background-color:#fef68a;position:relative;margin-bottom:10px;border-radius:10px;padding:1rem;min-height:170px;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;}",
+      }
+    }
+    data-emotion="css hq46nn"
+  />,
+  <div
+    className="css-hq46nn"
+  >
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-4x1k5j{word-break:break-all;}",
+        }
+      }
+      data-emotion="css 4x1k5j"
+    />
+    <p
+      className="css-4x1k5j"
+      data-test="text"
+    >
+      test
+    </p>
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": ".css-6x2lit{position:absolute;bottom:0;right:0;margin:10px;cursor:pointer;}",
+        }
+      }
+      data-emotion="css 6x2lit"
+    />
+    <div
+      className="css-6x2lit"
+    >
+      <svg
+        fill="currentColor"
+        height="1.3em"
+        onClick={[Function]}
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1.3em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zm2.46-7.12l1.41-1.41L12 12.59l2.12-2.12 1.41 1.41L13.41 14l2.12 2.12-1.41 1.41L12 15.41l-2.12 2.12-1.41-1.41L10.59 14l-2.13-2.12zM15.5 4l-1-1h-5l-1 1H5v2h14V4z"
+        />
+      </svg>
+    </div>
+  </div>,
+]
+`;
